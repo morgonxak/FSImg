@@ -84,9 +84,9 @@ def test():
 def fireMaxT(T,c,b,X,Y,S):
     dSP = X * Y / c / b
     mPt = 0
-    for i in range(0,c-1):
+    for i in range(0, c-1):
         for j in range(0,b-1):
-            if T[i,j]>180:
+            if T[i,j] > 180:
                 mPt = mPt + 1
 
     SP = dSP * mPt

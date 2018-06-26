@@ -1,0 +1,4 @@
+команда для создания exe
+C:\Users\User2\Documents\DimaProject\FSImg\venv\Scripts\pyinstaller.exe --onefile --noconsole gui.py
+Команда для перевода Ui файла в py
+pyuic5.exe C:\Users\User2\Documents\DimaProject\FSImg\Disain\untitled.ui -o C:\Users\User2\Documents\DimaProject\FSImg\design.py
